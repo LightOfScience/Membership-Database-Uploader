@@ -22,14 +22,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="compile to EXE.ps1">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Light_Of_Science_Membership_Database.py" />
     <Compile Include="member_details.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="memberID_validate.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="random_membershipID_generator.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="upload_database.py">
+    <Compile Include="online_database.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -37,7 +43,8 @@
     <InterpreterReference Include="Global|VisualStudio|Python 3.7 (64bit)" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LOS Member Database-dd00eddde642.json" />
+    <Content Include="icon.ico" />
+    <Content Include="API_Credentials.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
