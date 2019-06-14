@@ -9,7 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-LOS Member Database-dd00eddde642.json
+API_Credentials.json 
+#Credential File
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
