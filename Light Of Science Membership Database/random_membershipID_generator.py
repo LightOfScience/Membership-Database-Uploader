@@ -5,15 +5,6 @@ character = ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q'
 
 choice = (numeric + character)
 
-"""
-print ("\n") # General Purpose Spacing
-n=0
-while (n<len(choice)):
-    print (choice[n]),
-    n+=1
-print ("\n\n") # General Purpose Spacing
-"""
-
 # Membership Number is 5 digit
 def RandomID():
     d1 = random.choice(numeric)
@@ -26,7 +17,4 @@ def RandomID():
     random.shuffle(MemberID)
     MemberID = ''.join(MemberID)
 
-    print ("Random Membership ID :: %s" %MemberID) 
-    
-    print ("\n\n") # General Purpose Spacing
     return MemberID
