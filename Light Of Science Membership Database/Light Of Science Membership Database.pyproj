@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="compile to EXE.ps1">
+    <Compile Include="barcode.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Light_Of_Science_Membership_Database.py" />
@@ -30,6 +30,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="memberID_validate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pdf.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="random_membershipID_generator.py">
